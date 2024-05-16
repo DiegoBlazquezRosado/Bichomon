@@ -33,13 +33,20 @@ for (let i=0; i<imgSrc.length; i++) {
     imgSrc[i].setAttribute('src', 'https://media.giphy.com/media/2v170e71aanfi/giphy.gif');
 }
 
-/*
-let typeFlying = document.querySelectorAll('.itype.flying');
-let infoCard = document.querySelectorAll('.infocard-lg-data.text-muted');
+// let infoCard = document.querySelectorAll('.infocard-lg-data.text-muted');
+// let typeFlying = document.querySelectorAll('.itype.flying');
 
-for (let i=0; i<infoCard.length; i++) {
-    if (infoCard.childNodes.className===".itype.flying") {
-        infoCard[i].style.backgroundColor="lightblue";
-    }
-}
-*/
+// for (let i=0; i<infoCard.length; i++) {
+//     if (infoCard.childNodes.className===".itype.flying") {
+//         infoCard[i].style.backgroundColor="lightblue";
+//     }
+// }
+
+
+// let element = document.getElementById('holder');
+
+// element.addEventListener('click', (e) => {
+//   if(e.target.classList.contains('button')) {
+//     console.log('some event content here...');
+//   }
+// });
